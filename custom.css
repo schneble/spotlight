@@ -1,0 +1,78 @@
+
+
+.mtk5 {
+    color: #008c7d !important;
+}
+/* Code canvas top shadow */
+.monaco-editor .scroll-decoration {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .55) !important;
+    top: -5px !important;
+}
+/* Side bar */
+.part.sidebar {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .75px);
+}
+/* scroll bar */
+.slider {
+    position: absolute !important;
+    right: 1px !important;
+    width: 1px !important;
+    left: auto !important;
+}
+/* Tooltip */
+.monaco-editor-hover,
+.monaco-hover {
+    box-shadow: 0px 8px 32px rgba(0,0,0, 45) !important;
+    padding: 10px !important;
+    background-image: white !important;
+    backdrop-filter: blur(3px) !important;
+    border-radius: 20px ! important;
+    border: none !important;
+}
+/* Search bar icon */
+.search-icon {
+    display: none !important;
+}
+.codicon-search::before {
+    display: none !important;
+}
+.codicon-arrow-right, .codicon-arrow-left {
+    display: none !important;
+}
+
+.titlebar-right > * {
+    display: none !important;
+}
+.quick-input-widget .monaco-inputbox {
+    background: rgba(15, 12, 15, 0.9) !important;
+    padding: 11px 14px !important;
+    margin-bottom:5px;
+    font-size: 16px !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 8px !important;
+}
+ #command-blur {
+    transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
+}
+/* Remove background for lists */
+ .monaco-list-rows {
+    background: transparent !important;
+}
+.quick-input-widget .monaco-list-row.focused {
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+/* Command Palette */
+ .quick-input-widget {
+    transform: translateY(-10%) !important;
+    top: 20% !important;
+    background: rgba(22, 22, 23, 0.3) !important;
+    padding: 10px 10px 18px 10px !important;
+    border: 1px solid #2A2A2A !important;
+    backdrop-filter: blur(90px) !important;
+    border-radius: 12px !important;
+    box-shadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)' !important;
+}
+.notifications-toasts .monaco-list-row:hover {
+    background: none !important;
+}
